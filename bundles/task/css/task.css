@@ -1,0 +1,53 @@
+html {
+    background: url('../images/background.jpg') 50% top no-repeat;
+}
+
+@font-face {
+    font-family: Segoe;
+    src: url(../fonts/SegoePro-Light.ttf);
+}
+
+.page
+{
+    font-family: Segoe;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.text
+{
+    margin: 55px auto 0 auto;
+    font-size: 48px;
+    text-align: center;
+    width: 600px;
+}
+
+.content
+{
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left
+{
+    flex-basis: 600px;
+}
+
+.content-right
+{
+    flex-basis: 300px;
+}
+
+.page .footer
+{
+    margin: 100px auto 60px auto;
+}
+
+@import "header/css/header.css";
+@import "numeration/css/numeration.css";
+@import "task/css/task.css";
+@import "advices/css/advices.css";
+@import "answer/css/answer.css";
+@import "man/css/man.css";
+@import "/css/footer.css";

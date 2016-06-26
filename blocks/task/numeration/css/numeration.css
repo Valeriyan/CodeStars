@@ -1,0 +1,71 @@
+.num
+{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+}
+
+.num span
+{
+    height: 75px;
+    width: 5%;
+}
+
+.num__orange
+{
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 0;
+    color: #f90;
+    margin-top: -7px;
+}
+
+.num__1
+{
+    background: url('../images/arrow.png') center bottom no-repeat;
+    background-size: contain;
+}
+
+.num__2:before
+{
+    content: '';
+    height: 37px;
+    width: 50px;
+    position: absolute;
+    background: url('../images/task-2.png') no-repeat;
+    margin-top: -30px;
+}
+
+.num__6:before
+{
+    content: '';
+    height: 37px;
+    width: 50px;
+    position: absolute;
+    background: url('../images/task-6.png') no-repeat;
+    margin-top: -30px;
+}
+
+.num__12:before
+{
+    content: '';
+    height: 37px;
+    width: 50px;
+    position: absolute;
+    background: url('../images/task-12.png') no-repeat;
+    margin-top: -30px;
+}
+
+.num__20:before
+{
+    content: '';
+    height: 37px;
+    width: 50px;
+    position: absolute;
+    background: url('../images/task-20.png') no-repeat;
+    margin-top: -30px;
+}

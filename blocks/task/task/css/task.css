@@ -1,0 +1,21 @@
+.task
+{
+    font-size: 24px;
+}
+
+.task__title
+{
+    font-weight: bold;
+}
+
+.task__text
+{
+    margin: 30px 0;
+}
+
+.task__orange
+{
+    text-decoration: none;
+    color: #f90;
+}
+

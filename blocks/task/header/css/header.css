@@ -1,0 +1,57 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a
+{
+    text-decoration: none;
+}
+
+.header__logo
+{
+    width: 130px;
+    height: 25px;
+    background: url('../images/CodeStars.png') no-repeat;
+    background-size: contain;
+}
+
+.header__links
+{
+    display: flex;
+}
+
+.header__save
+{
+    color: #f90;
+    font-size: 22px;
+}
+
+.header__icons
+{
+    display: flex;
+    margin-left: 70px;
+}
+
+.header__icon
+{
+    width: 26px;
+    height: 26px;
+    margin: 0 10px;
+}
+
+.header__icon-0
+{
+    background: url('../images/soc-icnos.png') 0 no-repeat;
+}
+
+.header__icon-1
+{
+    background: url('../images/soc-icnos.png') -35px 0 no-repeat;
+}
+
+.header__icon-2
+{
+    background: url('../images/soc-icnos.png') -75px 0 no-repeat;
+}

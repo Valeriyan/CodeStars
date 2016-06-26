@@ -1,0 +1,21 @@
+.man
+{
+    position: absolute;
+    width: 600px;
+    height: 359px;
+    background: url('../images/man.png') no-repeat;
+    margin: -370px 0 0 -155px;
+}
+
+.man__text
+{
+    position: absolute;
+    font-size: 24px;
+    margin: 18px 0 0 175px;
+}
+
+.man__orange
+{
+    color: #f90;
+    text-decoration: none;
+}

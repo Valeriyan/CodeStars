@@ -1,0 +1,22 @@
+.advices
+{
+    font-size: 24px;
+    width: 83%;
+}
+
+.advices__title
+{
+    font-weight: bold;
+}
+
+.advices__text
+{
+    margin: 30px 0;
+}
+
+.advices__orange
+{
+    color: #f90;
+    text-decoration: none;
+}
+
