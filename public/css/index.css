@@ -1,0 +1,237 @@
+html {
+  background: url('../images/background.jpg') 50% top no-repeat;
+}
+
+@font-face {
+  font-family: Segoe;
+  src: url(../fonts/SegoePro-Light.ttf);
+}
+
+.page {
+  font-family: Segoe;
+}
+
+.choose-style {
+  position: absolute;
+  top: 690px;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.login {
+  overflow: hidden;
+}
+
+.login__text {
+  color: #fff;
+  position: relative;
+  left: 100%;
+  margin-left: -310px;
+  font-size: 24px;
+}
+
+.login__link {
+  color: #12b5ec;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.header__title {
+  margin: 60px auto;
+  width: 775px;
+  height: 144px;
+  background: url('../images/CodeStars.png');
+}
+
+.header__subtitle {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 65px;
+  color: #fff;
+}
+
+.content {
+  width: 1070px;
+  display: flex;
+  margin: 42px auto;
+}
+
+.content__item-wrapper {
+  margin: 0 20px;
+  width: 302px;
+  height: 815px;
+  background: url('../images/lights.png') -5px bottom no-repeat;
+  min-height: 655px;
+}
+
+.content__wrapper-punk {
+  background: url('../images/lights.png') -312px bottom no-repeat;
+}
+
+.content__wrapper-indie:hover {
+  background: url('../images/lights-hover.png') -5px bottom no-repeat;
+}
+
+.content__wrapper-electro:hover {
+  background: url('../images/lights-hover.png') -315px bottom no-repeat;
+}
+
+.content__wrapper-punk:hover {
+  background: url('../images/lights-hover.png') -620px bottom no-repeat;
+}
+
+.content__icon {
+  width: 102px;
+  height: 47px;
+  background: url('../images/icons.png');
+  margin: 0 auto;
+}
+
+.content__icon-indie {
+  background-position: 0 0;
+}
+
+.content__icon-electro {
+  background-position: -112px 0;
+}
+
+.content__icon-punk {
+  background-position: -224px 0;
+}
+
+.content__text {
+  color: #fff;
+  font-size: 24px;
+  position: relative;
+  left: 30px;
+  margin-top: 17px;
+}
+
+.content__wrapper-indie .content__text:before {
+  content: '1.';
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.content__wrapper-electro .content__text:before {
+  content: '2.';
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.content__wrapper-punk .content__text:before {
+  content: '3.';
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.content__character-indie {
+  background: url('../images/m0.png') no-repeat;
+  margin-top: 311px;
+  margin-left: -20px;
+  width: 100%;
+  height: 362px;
+}
+
+.content__character-electro {
+  background: url('../images/m1.png') no-repeat;
+  margin-top: 215px;
+  margin-left: 30px;
+  width: 100%;
+  height: 426px;
+}
+
+.content__character-punk {
+  background: url('../images/m2.png') no-repeat;
+  margin-top: 275px;
+  margin-left: 8px;
+  width: 100%;
+  height: 365px;
+}
+
+.content__label {
+  height: 73px;
+  border: 6px solid #12b5ec;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 247px;
+  color: #12b5ec;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.content__label-indie span:after {
+  content: 'IndieCode';
+  position: relative;
+  top: 17px;
+}
+
+.content__wrapper-indie:hover > .content__label-indie span:after {
+  content: '<...> Кодируй';
+  position: relative;
+  top: 17px;
+}
+
+.content__label-electro span:after {
+  content: 'ElectroCode';
+  position: relative;
+  top: 17px;
+}
+
+.content__wrapper-electro:hover > .content__label-electro span:after {
+  content: '(...) Кодируй';
+  position: relative;
+  top: 17px;
+}
+
+.content__label-punk span:after {
+  content: 'PunkCode';
+  position: relative;
+  top: 17px;
+}
+
+.content__wrapper-punk:hover > .content__label-punk span:after {
+  content: '{...} Кодируй';
+  position: relative;
+  top: 17px;
+}
+
+.footer {
+  margin: 255px auto 80px auto;
+  width: 990px;
+}
+
+.footer__refs {
+  text-align: center;
+}
+
+.footer__refs a {
+  margin: 0 28px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__refs a:hover {
+  color: #12b5ec;
+}
+
+.footer__icons {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.footer__icons a {
+  margin: 0 26px;
+  text-decoration: none;
+}

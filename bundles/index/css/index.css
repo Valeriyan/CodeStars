@@ -1,0 +1,30 @@
+html {
+    background: url('../images/background.jpg') 50% top no-repeat;
+}
+
+@font-face {
+    font-family: Segoe;
+    src: url(../fonts/SegoePro-Light.ttf);
+}
+
+.page
+{
+    font-family: Segoe;
+}
+
+.choose-style
+{
+    position: absolute;
+    top: 690px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+@import "login/css/login.css";
+@import "header/css/header.css";
+@import "content/css/content.css";
+@import "footer/css/footer.css";

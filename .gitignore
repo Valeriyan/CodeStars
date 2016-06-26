@@ -1,0 +1,5 @@
+/DreamSpark_test
+.idea
+npm-debug.log
+node_modules
+temp

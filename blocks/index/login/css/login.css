@@ -1,0 +1,19 @@
+.login
+{
+    overflow: hidden;
+}
+
+.login__text
+{
+    color: #fff;
+    position: relative;
+    left: 100%;
+    margin-left: -310px;
+    font-size: 24px;
+}
+
+.login__link
+{
+    color: #12b5ec;
+    text-decoration: none;
+}

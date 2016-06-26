@@ -1,0 +1,35 @@
+.footer
+{
+    margin: 255px auto 80px auto;
+    width: 990px;
+}
+
+.footer__refs
+{
+    text-align: center;
+}
+
+.footer__refs a
+{
+    margin: 0 28px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__refs a:hover
+{
+    color: #12b5ec;
+}
+
+.footer__icons
+{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.footer__icons a
+{
+    margin: 0 26px;
+    text-decoration: none;
+}

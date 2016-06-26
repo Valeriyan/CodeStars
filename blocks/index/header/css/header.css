@@ -1,0 +1,20 @@
+.header
+{
+    margin-top: 50px;
+}
+
+.header__title
+{
+    margin: 60px auto;
+    width: 775px;
+    height: 144px;
+    background: url('../images/CodeStars.png');
+}
+
+.header__subtitle
+{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 65px;
+    color: #fff;
+}
